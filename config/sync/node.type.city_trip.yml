@@ -1,0 +1,18 @@
+uuid: 61805dd8-bec5-400c-a696-4f0ecb6d6763
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'City Trip'
+type: city_trip
+description: ''
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: true

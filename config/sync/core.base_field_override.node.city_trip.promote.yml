@@ -1,0 +1,22 @@
+uuid: 398d3fb7-7450-4de4-93af-078969cb4d1f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.city_trip
+id: node.city_trip.promote
+field_name: promote
+entity_type: node
+bundle: city_trip
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

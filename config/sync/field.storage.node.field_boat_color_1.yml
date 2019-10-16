@@ -1,0 +1,20 @@
+uuid: e147f026-5f67-43e4-ae33-2b048bfd2b49
+langcode: en
+status: true
+dependencies:
+  module:
+    - color_field
+    - node
+id: node.field_boat_color_1
+field_name: field_boat_color_1
+entity_type: node
+type: color_field_type
+settings:
+  format: '#HEXHEX'
+module: color_field
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

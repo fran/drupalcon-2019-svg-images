@@ -1,0 +1,19 @@
+uuid: 15653d62-4500-40cf-80dc-f368862c8362
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_boat_name
+    - node.type.city_trip
+id: node.city_trip.field_boat_name
+field_name: field_boat_name
+entity_type: node
+bundle: city_trip
+label: Name
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

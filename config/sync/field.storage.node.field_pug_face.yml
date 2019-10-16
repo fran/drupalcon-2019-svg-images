@@ -1,0 +1,20 @@
+uuid: 6e3f12c4-a549-461a-9e40-a23065fec595
+langcode: en
+status: true
+dependencies:
+  module:
+    - color_field
+    - node
+id: node.field_pug_face
+field_name: field_pug_face
+entity_type: node
+type: color_field_type
+settings:
+  format: '#HEXHEX'
+module: color_field
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

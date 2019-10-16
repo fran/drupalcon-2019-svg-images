@@ -1,0 +1,22 @@
+uuid: 4fc9ca99-c460-4c20-b172-b248d2112361
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pug_hair
+    - node.type.city_trip
+  module:
+    - color_field
+id: node.city_trip.field_pug_hair
+field_name: field_pug_hair
+entity_type: node
+bundle: city_trip
+label: Hair
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  opacity: 0
+field_type: color_field_type

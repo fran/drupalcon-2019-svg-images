@@ -1,0 +1,30 @@
+uuid: 357b1699-09d4-497a-af36-7645d843fed8
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.city_trip.field_boat_color_1
+    - field.field.node.city_trip.field_boat_color_2
+    - field.field.node.city_trip.field_pug_face
+    - field.field.node.city_trip.field_pug_hair
+    - field.field.node.city_trip.field_sky
+    - node.type.city_trip
+  module:
+    - user
+id: node.city_trip.teaser
+targetEntityType: node
+bundle: city_trip
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_boat_color_1: true
+  field_boat_color_2: true
+  field_pug_face: true
+  field_pug_hair: true
+  field_sky: true

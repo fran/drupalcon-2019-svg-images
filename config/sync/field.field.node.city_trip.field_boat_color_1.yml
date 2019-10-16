@@ -1,0 +1,22 @@
+uuid: 67f527fd-3ecb-4166-9067-0ce5d664de97
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_boat_color_1
+    - node.type.city_trip
+  module:
+    - color_field
+id: node.city_trip.field_boat_color_1
+field_name: field_boat_color_1
+entity_type: node
+bundle: city_trip
+label: 'Boat Color 1'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  opacity: 0
+field_type: color_field_type

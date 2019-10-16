@@ -1,0 +1,156 @@
+uuid: fffd34c5-fc68-4c9d-beb3-0e0d1785d085
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.city_trip.field_boat_color_1
+    - field.field.node.city_trip.field_boat_color_2
+    - field.field.node.city_trip.field_boat_name
+    - field.field.node.city_trip.field_pug_face
+    - field.field.node.city_trip.field_pug_hair
+    - field.field.node.city_trip.field_sky
+    - node.type.city_trip
+  module:
+    - color_field
+    - field_group
+    - path
+third_party_settings:
+  field_group:
+    group_pug:
+      children:
+        - field_pug_hair
+        - field_pug_face
+      parent_name: ''
+      weight: 10
+      format_type: fieldset
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        required_fields: true
+      label: Pug
+      region: content
+    group_boat:
+      children:
+        - field_boat_color_1
+        - field_boat_color_2
+        - field_boat_name
+      parent_name: ''
+      weight: 8
+      format_type: fieldset
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        required_fields: true
+      label: Boat
+      region: content
+    group_amsterdam:
+      children:
+        - field_sky
+      parent_name: ''
+      weight: 7
+      format_type: fieldset
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        required_fields: true
+      label: Amsterdam
+      region: content
+id: node.city_trip.default
+targetEntityType: node
+bundle: city_trip
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_boat_color_1:
+    weight: 26
+    settings: {  }
+    third_party_settings: {  }
+    type: color_field_widget_html5
+    region: content
+  field_boat_color_2:
+    weight: 27
+    settings: {  }
+    third_party_settings: {  }
+    type: color_field_widget_html5
+    region: content
+  field_boat_name:
+    weight: 28
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_pug_face:
+    weight: 12
+    settings:
+      default_colors: "\n#AC725E,#D06B64,#F83A22,#FA573C,#FF7537,#FFAD46\n#42D692,#16A765,#7BD148,#B3DC6C,#FBE983\n#92E1C0,#9FE1E7,#9FC6E7,#4986E7,#9A9CFF\n#B99AFF,#C2C2C2,#CABDBF,#CCA6AC,#F691B2\n#CD74E6,#A47AE2"
+    third_party_settings: {  }
+    type: color_field_widget_box
+    region: content
+  field_pug_hair:
+    weight: 11
+    settings:
+      default_colors: "\n#AC725E,#D06B64,#F83A22,#FA573C,#FF7537,#FFAD46\n#42D692,#16A765,#7BD148,#B3DC6C,#FBE983\n#92E1C0,#9FE1E7,#9FC6E7,#4986E7,#9A9CFF\n#B99AFF,#C2C2C2,#CABDBF,#CCA6AC,#F691B2\n#CD74E6,#A47AE2"
+    third_party_settings: {  }
+    type: color_field_widget_box
+    region: content
+  field_sky:
+    weight: 9
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  path:
+    type: path
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 3
+    region: content
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 6
+    region: content
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 4
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 1
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+hidden: {  }
