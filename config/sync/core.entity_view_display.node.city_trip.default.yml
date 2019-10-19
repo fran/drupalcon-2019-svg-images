@@ -7,25 +7,90 @@ dependencies:
     - field.field.node.city_trip.field_boat_color_2
     - field.field.node.city_trip.field_boat_name
     - field.field.node.city_trip.field_boat_speed
+    - field.field.node.city_trip.field_pug_ears
     - field.field.node.city_trip.field_pug_face
     - field.field.node.city_trip.field_pug_hair
     - field.field.node.city_trip.field_sky
     - field.field.node.city_trip.field_svg_image
     - node.type.city_trip
   module:
+    - color_field
+    - options
     - user
 id: node.city_trip.default
 targetEntityType: node
 bundle: city_trip
 mode: default
-content: {  }
+content:
+  field_boat_color_1:
+    type: color_field_formatter_text
+    weight: 3
+    region: content
+    label: above
+    settings:
+      format: hex
+      opacity: '1'
+    third_party_settings: {  }
+  field_boat_color_2:
+    type: color_field_formatter_text
+    weight: 4
+    region: content
+    label: above
+    settings:
+      format: hex
+      opacity: '1'
+    third_party_settings: {  }
+  field_boat_name:
+    type: string
+    weight: 0
+    region: content
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  field_boat_speed:
+    type: number_integer
+    weight: 5
+    region: content
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+  field_pug_ears:
+    weight: 7
+    label: above
+    settings:
+      format: hex
+      opacity: '1'
+    third_party_settings: {  }
+    type: color_field_formatter_text
+    region: content
+  field_pug_face:
+    type: color_field_formatter_text
+    weight: 2
+    region: content
+    label: above
+    settings:
+      format: hex
+      opacity: '1'
+    third_party_settings: {  }
+  field_pug_hair:
+    type: color_field_formatter_text
+    weight: 1
+    region: content
+    label: above
+    settings:
+      format: hex
+      opacity: '1'
+    third_party_settings: {  }
+  field_sky:
+    type: list_default
+    weight: 6
+    region: content
+    label: above
+    settings: {  }
+    third_party_settings: {  }
 hidden:
-  field_boat_color_1: true
-  field_boat_color_2: true
-  field_boat_name: true
-  field_boat_speed: true
-  field_pug_face: true
-  field_pug_hair: true
-  field_sky: true
   field_svg_image: true
   links: true
