@@ -1,0 +1,25 @@
+uuid: 3b85cdc7-8890-4482-88fb-38bb1df16906
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_boat_speed
+    - node.type.city_trip
+id: node.city_trip.field_boat_speed
+field_name: field_boat_speed
+entity_type: node
+bundle: city_trip
+label: Speed
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  min: 0
+  max: 10
+  prefix: ''
+  suffix: ''
+field_type: integer
