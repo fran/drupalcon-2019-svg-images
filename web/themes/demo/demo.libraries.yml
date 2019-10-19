@@ -9,4 +9,8 @@ city-trip:
   css:
     theme:
       assets/dog-in-amsterdam/styles.css: {}
+icons:
+  css:
+    theme:
+      assets/icons/icon.css: {}
 
