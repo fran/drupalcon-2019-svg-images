@@ -4,3 +4,9 @@ global-styling:
       css/style.css: {}
   js:
     js/main.js: {}
+
+city-trip:
+  css:
+    theme:
+      assets/dog-in-amsterdam/styles.css: {}
+

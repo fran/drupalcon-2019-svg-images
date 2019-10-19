@@ -1,0 +1,41 @@
+.container {
+  max-width: 1255px;
+  height: 700px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+}
+.amsterdam {
+  position: absolute;
+  left: 0;
+  right: -1255px;
+  bottom: 0;
+  top: 0;
+  background: url("amsterdam.svg") 0% 0% repeat;
+  background-repeat-y: no-repeat;
+  background-size: 50%;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  animation: moveLeft 20s linear infinite;
+  /*z-index: -1;*/
+}
+
+.dog {
+  position: absolute;
+  bottom: 8px;
+  left: 20%;
+  height: 180px;
+}
+
+.dog svg {
+  height: 100%;
+}
+
+@keyframes moveLeft {
+  from {
+    -webkit-transform: translateX(0);
+  }
+  to {
+    -webkit-transform: translateX(-1255px);
+  }
+}
