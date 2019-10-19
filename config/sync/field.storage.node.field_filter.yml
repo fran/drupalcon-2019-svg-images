@@ -1,0 +1,27 @@
+uuid: e61a5573-9b01-4f62-8289-f766e14bffbb
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_filter
+field_name: field_filter
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: black_and_white
+      label: 'Black and white'
+    -
+      value: sepia
+      label: Sepia
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,21 @@
+uuid: d87e56be-7213-4706-9cf7-7621d2c96813
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_filter
+    - node.type.image_with_filter
+  module:
+    - options
+id: node.image_with_filter.field_filter
+field_name: field_filter
+entity_type: node
+bundle: image_with_filter
+label: Filter
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,39 @@
+uuid: 0cf4dff0-1512-49aa-a7d8-805e33a88444
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.image_with_filter.field_filter
+    - field.field.node.image_with_filter.field_image
+    - node.type.image_with_filter
+  module:
+    - image
+    - options
+    - user
+id: node.image_with_filter.default
+targetEntityType: node
+bundle: image_with_filter
+mode: default
+content:
+  field_filter:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_image:
+    weight: 101
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

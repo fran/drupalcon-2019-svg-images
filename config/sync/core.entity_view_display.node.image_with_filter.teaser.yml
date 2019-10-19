@@ -1,0 +1,20 @@
+uuid: ce1d02bd-6471-4fc3-a735-a9f465b8a95e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.image_with_filter
+  module:
+    - user
+id: node.image_with_filter.teaser
+targetEntityType: node
+bundle: image_with_filter
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }
