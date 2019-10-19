@@ -1,0 +1,20 @@
+uuid: 869d04c4-3720-4452-ab4a-85e237c05b00
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.demo_icon
+  module:
+    - user
+id: node.demo_icon.teaser
+targetEntityType: node
+bundle: demo_icon
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

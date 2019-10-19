@@ -1,0 +1,31 @@
+uuid: dfe0d1c4-41e3-4b77-be82-f446c0b0780a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_icons
+    - node.type.demo_icon
+    - paragraphs.paragraphs_type.icon
+  module:
+    - entity_reference_revisions
+id: node.demo_icon.field_icons
+field_name: field_icons
+entity_type: node
+bundle: demo_icon
+label: Icons
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      icon: icon
+    target_bundles_drag_drop:
+      icon:
+        enabled: true
+        weight: 2
+field_type: entity_reference_revisions

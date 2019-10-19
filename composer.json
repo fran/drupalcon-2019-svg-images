@@ -24,6 +24,7 @@
         "drupal/console": "^1.0.2",
         "drupal/core": "^8.7.0",
         "drupal/field_group": "^3.0",
+        "drupal/paragraphs": "^1.9",
         "drupal/sliderwidget": "^2.0",
         "drupal/svg_image_field": "^1.2",
         "drupal/twig_field_value": "^1.2",

@@ -1,0 +1,27 @@
+uuid: bc235417-5092-4cfb-9fad-afb4be6f59e7
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_icons
+field_name: field_icons
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: icon1.svg
+      label: 'Icon 1'
+    -
+      value: icon2.svg
+      label: 'Icon 2'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,30 @@
+uuid: 90cf4ea5-0a84-4d6b-ac1a-47d15ff530cd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.demo_icon.field_icons
+    - node.type.demo_icon
+  module:
+    - entity_reference_revisions
+    - user
+id: node.demo_icon.default
+targetEntityType: node
+bundle: demo_icon
+mode: default
+content:
+  field_icons:
+    type: entity_reference_revisions_entity_view
+    weight: 101
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

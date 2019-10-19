@@ -1,0 +1,41 @@
+uuid: e1747bd9-62bc-47f8-a3da-b2a6ac1d8316
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.icon.field_icon_color
+    - field.field.paragraph.icon.field_icon_text
+    - field.field.paragraph.icon.field_icons
+    - paragraphs.paragraphs_type.icon
+  module:
+    - color_field
+    - options
+id: paragraph.icon.default
+targetEntityType: paragraph
+bundle: icon
+mode: default
+content:
+  field_icon_color:
+    weight: 1
+    label: above
+    settings:
+      format: hex
+      opacity: '1'
+    third_party_settings: {  }
+    type: color_field_formatter_text
+    region: content
+  field_icon_text:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_icons:
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+hidden: {  }
