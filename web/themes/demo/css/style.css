@@ -1,0 +1,20 @@
+.site-branding__logo {
+  max-width: 3rem;
+}
+
+#header {
+  background-color: #f14c3f;
+  background-image: none;
+}
+body,
+.site-footer {
+  background-color: #29383e;
+}
+
+a, .link {
+  color: #f14c3f;
+}
+
+a:hover, a:focus, .link:hover, .link:focus {
+  color: #c32418;
+}
