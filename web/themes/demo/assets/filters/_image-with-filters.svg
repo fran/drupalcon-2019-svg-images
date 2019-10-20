@@ -1,0 +1,18 @@
+{#
+ * Available variables:
+ * image_link: String: Path to the image
+ * filter_name: String: Filter name to apply
+#}
+
+<svg width="600" height="450" viewBox="0 0 600 450">
+  <filter id="black_and_white">
+    <feColorMatrix
+      type="matrix"
+      values="0 1 0 0 0
+              0 1 0 0 0
+              0 1 0 0 0
+              0 1 0 1 0 "/>
+  </filter>
+  <image id=myImage xlink:href={{ image_link }} width="100%" height="100%" x="0" y="0"
+         filter={{ "url(#" ~ filter_name ~ ")"}}></image>
+</svg>

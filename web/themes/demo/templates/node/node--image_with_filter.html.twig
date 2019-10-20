@@ -79,17 +79,10 @@
 %}
 {{ attach_library('classy/node') }}
 <article{{ attributes.addClass(classes) }}>
-  <header>
-    {{ title_prefix }}
-    {% if label and not page %}
-      <h2{{ title_attributes.addClass('node__title') }}>
-        <a href="{{ url }}" rel="bookmark">{{ label }}</a>
-      </h2>
-    {% endif %}
-    {{ title_suffix }}
-  </header>
   <div{{ content_attributes.addClass('node__content', 'clearfix') }}>
-    {{ content.field_image }}
-    {{ content.field_filter }}
+    {% include '@demo/partials/_image-with-filters.twig' with {
+      image_link: content.field_image[0]['#markup'],
+      filter_name: content.field_filter[0]['#markup'],
+    } %}
   </div>
 </article>

@@ -17,6 +17,30 @@ settings:
     -
       value: sepia
       label: Sepia
+    -
+      value: dark
+      label: Dark
+    -
+      value: blur
+      label: Blur
+    -
+      value: dialate
+      label: Dialate
+    -
+      value: erodate
+      label: Erodate
+    -
+      value: sunshine
+      label: Sunshine
+    -
+      value: transparentize
+      label: Transparentize
+    -
+      value: wawes
+      label: Wawes
+    -
+      value: water_drops
+      label: 'Water drops'
   allowed_values_function: ''
 module: options
 locked: false
