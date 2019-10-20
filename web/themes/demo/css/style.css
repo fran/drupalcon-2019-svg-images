@@ -18,3 +18,13 @@ a, .link {
 a:hover, a:focus, .link:hover, .link:focus {
   color: #c32418;
 }
+
+.block-local-tasks-block {
+  position: fixed;
+  bottom: -2px;
+  right: 10px;
+}
+
+.tabs ul.primary li.is-active a {
+  color: #f14c3f;
+}
