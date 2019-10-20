@@ -72,7 +72,12 @@
  * @ingroup themeable
  */
 #}
-
+{%
+  set classes = [
+  'amsterdam',
+  node.field_boat_speed.value? 'velocity-' ~ node.field_boat_speed.value,
+]
+%}
 <!doctype html>
 <html lang="en">
 <head>
@@ -85,7 +90,7 @@
 </head>
 <body>
 <div class="container">
-  <div class="amsterdam">
+  <div{{ attributes.addClass(classes).removeClass('contextual-region') }}>
     {% include ('@demo/../assets/dog-in-amsterdam/amsterdam.svg') %}
   </div>
   <div class="dog">

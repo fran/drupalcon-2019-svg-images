@@ -18,9 +18,41 @@
   /*background-size: 50%;*/
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  animation: moveLeft 20s linear infinite;
+  /*animation: moveLeft 20s linear infinite;*/
   /*z-index: -1;*/
 }
+
+.velocity-1 svg {
+  animation: moveLeft 50s linear infinite;
+}
+.velocity-2 svg {
+  animation: moveLeft 45s linear infinite;
+}
+.velocity-3 svg {
+  animation: moveLeft 40s linear infinite;
+}
+.velocity-4 svg {
+  animation: moveLeft 35s linear infinite;
+}
+.velocity-5 svg {
+  animation: moveLeft 30s linear infinite;
+}
+.velocity-6 svg {
+  animation: moveLeft 25s linear infinite;
+}
+.velocity-7 svg {
+  animation: moveLeft 20s linear infinite;
+}
+.velocity-8 svg {
+  animation: moveLeft 15s linear infinite;
+}
+.velocity-9 svg {
+  animation: moveLeft 10s linear infinite;
+}
+.velocity-10 svg {
+  animation: moveLeft 5s linear infinite;
+}
+
 
 .dog {
   position: absolute;
