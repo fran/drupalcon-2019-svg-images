@@ -5,15 +5,17 @@
   overflow: hidden;
   position: relative;
 }
-.amsterdam {
+.amsterdam svg{
+  width: 100%;
+  height: 100%;
   position: absolute;
   left: 0;
   right: -1255px;
   bottom: 0;
   top: 0;
-  background: url("amsterdam.svg") 0% 0% repeat;
-  background-repeat-y: no-repeat;
-  background-size: 50%;
+  /*background: url("amsterdam.svg") 0% 0% repeat;*/
+  /*background-repeat-y: no-repeat;*/
+  /*background-size: 50%;*/
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   animation: moveLeft 20s linear infinite;
