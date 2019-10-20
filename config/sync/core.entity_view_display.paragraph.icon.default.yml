@@ -6,6 +6,7 @@ dependencies:
     - field.field.paragraph.icon.field_icon_color
     - field.field.paragraph.icon.field_icon_text
     - field.field.paragraph.icon.field_icons
+    - field.field.paragraph.icon.field_title
     - paragraphs.paragraphs_type.icon
   module:
     - color_field
@@ -17,7 +18,7 @@ mode: default
 content:
   field_icon_color:
     weight: 1
-    label: above
+    label: hidden
     settings:
       format: hex
       opacity: '1'
@@ -25,17 +26,25 @@ content:
     type: color_field_formatter_text
     region: content
   field_icon_text:
-    weight: 2
-    label: above
+    weight: 3
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     type: basic_string
     region: content
   field_icons:
     weight: 0
-    label: above
+    label: hidden
     settings: {  }
     third_party_settings: {  }
-    type: list_default
+    type: list_key
+    region: content
+  field_title:
+    weight: 2
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
     region: content
 hidden: {  }

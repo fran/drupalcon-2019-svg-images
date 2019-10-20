@@ -12,11 +12,11 @@ type: list_string
 settings:
   allowed_values:
     -
-      value: icon1.svg
-      label: icon1
+      value: announce
+      label: Announce
     -
-      value: icon2.svg
-      label: icon2
+      value: performance
+      label: Performance
   allowed_values_function: ''
 module: options
 locked: false
