@@ -13,10 +13,10 @@ settings:
   allowed_values:
     -
       value: icon1.svg
-      label: 'Icon 1'
+      label: icon1
     -
       value: icon2.svg
-      label: 'Icon 2'
+      label: icon2
   allowed_values_function: ''
 module: options
 locked: false

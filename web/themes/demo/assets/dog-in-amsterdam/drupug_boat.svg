@@ -56,8 +56,8 @@
       .cls-6{fill:#fff;}
       .cls-5{stroke:#000;stroke-miterlimit:10;}
       .cls-7{fill:#2c6d7c;}
-      .cls-8{fill:#033044;}
-      .cls-9{fill:#0d8fe7;}
+      .cls-8{fill:{{content.field_boat_color_1|field_value}};}
+      .cls-9{fill:{{content.field_boat_color_2|field_value}};}
       .cls-10{fill:#afafaf;}
       .cls-11{fill:#e5e5e5;}
     </style>
@@ -210,17 +210,17 @@
        d="M 37.4,76.78 A 552.43,552.43 0 0 0 95,80.07 c 28,-0.15 53,-2.58 53,-2.58 l 7.63,-2.8 0.19,-0.23 H 37 Z"
        id="boat-bottom"
        inkscape:connector-curvature="0"
-       style="fill:#033044" />
+    />
     <polygon
        class="cls-8"
        points="148.88,60.1 112.36,63.99 40.24,63.99 35.15,65.26 35.97,69.47 160.03,69.47 168.51,59.46 166.23,58.86 "
        id="boat-top"
-       style="fill:#033044" />
+    />
     <polygon
        class="cls-9"
        points="155.8,74.46 160.03,69.47 35.97,69.47 36.95,74.46 "
        id="boat-middle"
-       style="fill:#0d8fe7" />
+    />
     <path
        class="cls-7"
        d="m 166.27,80.36 c 0,0 9.07,-6.33 3.17,-8 -5.9,-1.67 -1.54,-1.26 0.42,-1 1.96,0.26 6.18,2.51 3.8,4.41 -2.38,1.9 -6.51,5.65 -7.39,4.59 z"
