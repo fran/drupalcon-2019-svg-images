@@ -27,6 +27,7 @@ hidden:
   field_boat_color_2: true
   field_boat_name: true
   field_boat_speed: true
+  field_pug_ears: true
   field_pug_face: true
   field_pug_hair: true
   field_sky: true

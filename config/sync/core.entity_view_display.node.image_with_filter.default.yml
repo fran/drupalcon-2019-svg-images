@@ -17,14 +17,14 @@ mode: default
 content:
   field_filter:
     weight: 102
-    label: above
+    label: hidden
     settings: {  }
     third_party_settings: {  }
-    type: list_default
+    type: list_key
     region: content
   field_image:
     weight: 101
-    label: above
+    label: hidden
     settings:
       image_style: ''
       image_link: ''
@@ -33,7 +33,7 @@ content:
     region: content
   links:
     weight: 100
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
 hidden: {  }
