@@ -10,16 +10,17 @@
   height: 100%;
   position: absolute;
   left: 0;
-  right: -1255px;
   bottom: 0;
   top: 0;
-  /*background: url("amsterdam.svg") 0% 0% repeat;*/
-  /*background-repeat-y: no-repeat;*/
-  /*background-size: 50%;*/
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  /*animation: moveLeft 20s linear infinite;*/
-  /*z-index: -1;*/
+}
+
+.amsterdam-image {
+  /*width: 50%;*/
+}
+.amsterdam-image:nth-child(2) {
+  margin-left: -6px;
 }
 
 .velocity-1 svg {
