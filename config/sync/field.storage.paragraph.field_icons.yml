@@ -17,6 +17,9 @@ settings:
     -
       value: performance
       label: Performance
+    -
+      value: flexible
+      label: Flexible
   allowed_values_function: ''
 module: options
 locked: false
