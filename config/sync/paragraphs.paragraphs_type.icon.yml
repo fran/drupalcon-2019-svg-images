@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 id: icon
-label: Icon
+label: 'Icon - text'
 icon_uuid: null
 description: ''
 behavior_plugins: {  }
