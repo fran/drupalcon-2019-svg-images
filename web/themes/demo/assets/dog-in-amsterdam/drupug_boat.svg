@@ -48,10 +48,10 @@
      inkscape:current-layer="svg73" />
   <defs id="defs4">
     <style id="style2">
-      .cls-1{fill:{{content.field_pug_hair|field_value}};filter:brightness(0.7);}
-      .cls-2{fill:{{content.field_pug_hair|field_value}};}
-      .cls-4{fill:{{content.field_pug_ears|field_value}};}
-      .cls-3{fill:{{content.field_pug_face|field_value}};}
+      .cls-1{fill:{{(content.field_pug_hair|field_value)|default('#d8b17f')}};filter:brightness(0.7);}
+      .cls-2{fill:{{(content.field_pug_hair|field_value)|default('#d8b17f')}};}
+      .cls-4{fill:{{(content.field_pug_ears|field_value)|default('#5b3c1d')}};}
+      .cls-3{fill:{{(content.field_pug_face|field_value)|default('#5b3c1d')}};}
       .cls-5,
       .cls-6{fill:#fff;}
       .cls-5{stroke:#000;stroke-miterlimit:10;}

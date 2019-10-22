@@ -72,36 +72,29 @@
  * @ingroup themeable
  */
 #}
-{%
-  set classes = [
-  'amsterdam',
-  node.field_boat_speed.value? 'velocity-' ~ node.field_boat_speed.value,
-]
-%}
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Dog in Amsterdam</title>
-  {{ attach_library('demo/city-trip') }}
-</head>
-<body>
-<div class="container">
-  <div{{ attributes.addClass(classes).removeClass('contextual-region') }}>
-    <div class="amsterdam-image">
-      {% include ('@demo/../assets/dog-in-amsterdam/amsterdam.svg') %}
-    </div>
-    <div class="amsterdam-image">
-      {% include ('@demo/../assets/dog-in-amsterdam/amsterdam.svg') %}
-    </div>
-  </div>
+{{ attach_library('demo/city-trip') }}
 
-  <div class="dog">
-    {% include ('@demo/../assets/dog-in-amsterdam/drupug_boat.svg') %}
+{%
+  set background_classes = [
+    'amsterdam',
+    node.field_boat_speed.value ? 'velocity-' ~ node.field_boat_speed.value,
+    node.field_sky.value == 'night' ? 'night'
+  ] | sort | join(' ') | trim
+%}
+
+<div{{ attributes.addClass('city-trip').removeClass('contextual-region') }}>
+  <div class="container">
+    <div class="{{ background_classes }}">
+      <div class="amsterdam-image">
+        {% include ('@demo/../assets/dog-in-amsterdam/amsterdam.svg') %}
+      </div>
+      <div class="amsterdam-image">
+        {% include ('@demo/../assets/dog-in-amsterdam/amsterdam.svg') %}
+      </div>
+    </div>
+    <div class="dog">
+      {% include ('@demo/../assets/dog-in-amsterdam/drupug_boat.svg') %}
+    </div>
   </div>
 </div>
-</body>
-</html>
+
