@@ -11,11 +11,14 @@ id: node.city_trip.field_boat_color_1
 field_name: field_boat_color_1
 entity_type: node
 bundle: city_trip
-label: 'Boat Color 1'
+label: 'Boat Color Dark'
 description: ''
 required: false
 translatable: false
-default_value: {  }
+default_value:
+  -
+    color: '#033044'
+    opacity: null
 default_value_callback: ''
 settings:
   opacity: 0

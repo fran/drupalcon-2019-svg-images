@@ -5,13 +5,10 @@ dependencies:
   config:
     - field.field.node.city_trip.field_boat_color_1
     - field.field.node.city_trip.field_boat_color_2
-    - field.field.node.city_trip.field_boat_name
     - field.field.node.city_trip.field_boat_speed
-    - field.field.node.city_trip.field_pug_ears
     - field.field.node.city_trip.field_pug_face
     - field.field.node.city_trip.field_pug_hair
     - field.field.node.city_trip.field_sky
-    - field.field.node.city_trip.field_svg_image
     - node.type.city_trip
   module:
     - color_field
@@ -40,14 +37,6 @@ content:
       format: hex
       opacity: '1'
     third_party_settings: {  }
-  field_boat_name:
-    type: string
-    weight: 0
-    region: content
-    label: above
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
   field_boat_speed:
     type: number_integer
     weight: 5
@@ -57,15 +46,6 @@ content:
       thousand_separator: ''
       prefix_suffix: true
     third_party_settings: {  }
-  field_pug_ears:
-    weight: 7
-    label: above
-    settings:
-      format: hex
-      opacity: '1'
-    third_party_settings: {  }
-    type: color_field_formatter_text
-    region: content
   field_pug_face:
     type: color_field_formatter_text
     weight: 2
@@ -92,5 +72,4 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
-  field_svg_image: true
   links: true

@@ -12,10 +12,10 @@ type: list_string
 settings:
   allowed_values:
     -
-      value: '#ffff'
+      value: night
       label: Night
     -
-      value: '#0000'
+      value: day
       label: Day
   allowed_values_function: ''
 module: options

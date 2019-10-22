@@ -48,16 +48,16 @@
      inkscape:current-layer="svg73" />
   <defs id="defs4">
     <style id="style2">
-      .cls-1{fill:{{(content.field_pug_hair|field_value)|default('#d8b17f')}};filter:brightness(0.7);}
-      .cls-2{fill:{{(content.field_pug_hair|field_value)|default('#d8b17f')}};}
-      .cls-4{fill:{{(content.field_pug_ears|field_value)|default('#5b3c1d')}};}
-      .cls-3{fill:{{(content.field_pug_face|field_value)|default('#5b3c1d')}};}
+      .pug-hair-dark{fill:{{(content.field_pug_hair|field_value)|default('#d8b17f')}};filter:brightness(0.7);}
+      .pug-hair{fill:{{(content.field_pug_hair|field_value)|default('#d8b17f')}};}
+      .pug-ears-nose-eyes{fill:{{(content.field_pug_face|field_value)|default('#5b3c1d')}};}
+      .pug-nose-color{fill:#2a2c2d;}
       .cls-5,
       .cls-6{fill:#fff;}
       .cls-5{stroke:#000;stroke-miterlimit:10;}
       .cls-7{fill:#2c6d7c;}
-      .cls-8{fill:{{content.field_boat_color_1|field_value}};}
-      .cls-9{fill:{{content.field_boat_color_2|field_value}};}
+      .boat-color-dark{fill:{{content.field_boat_color_1|field_value}};}
+      .boat-color-light{fill:{{content.field_boat_color_2|field_value}};}
       .cls-10{fill:#afafaf;}
       .cls-11{fill:#e5e5e5;}
     </style>
@@ -72,43 +72,43 @@
        id="path8"
        inkscape:connector-curvature="0" />
     <path
-       class="cls-1"
+       class="pug-hair-dark"
        d="m 93.56,55 -0.21,0.08 v 0.22 a 13.23,13.23 0 0 0 1,8.54 c 0.12,0.29 0.25,0.62 0.31,0.81 A 14.47,14.47 0 0 1 89.56,64.5 C 88.44,64.22 86.63,57.73 87.48,53.03 A 14.09,14.09 0 0 0 89,50.26 2.26,2.26 0 0 1 91.3,50.1 c 0.7,0.47 2.84,2.11 4.63,3.49 A 13,13 0 0 1 93.56,55 Z"
        id="back-leg"
        inkscape:connector-curvature="0"
         />
     <path
-       class="cls-2"
+       class="pug-hair"
        d="m 126.58,45.92 a 3.43,3.43 0 0 1 -0.4,1.86 c -4.81,9 -6,15.32 -3.61,19.4 a 45,45 0 0 1 -5.68,-0.12 18.61,18.61 0 0 1 -2.51,-9.72 8,8 0 0 0 4.75,-2.13 l -0.66,-0.56 c -2,2.39 -8.34,2.19 -10.26,2.06 0.3,-0.77 0.64,-1.6 1,-2.47 l -0.79,-0.36 c -4.24,9.2 -2.24,13.59 -1.49,15.24 a 2.14,2.14 0 0 1 0.1,0.22 44.39,44.39 0 0 1 -5.75,-0.12 c -2.9,-4.75 -2.75,-10.4 -2.15,-14.19 v 0 a 25.8,25.8 0 0 1 1,-4.27 l -0.81,-0.29 a 26.41,26.41 0 0 0 -1,3.93 c -1.69,-1.32 -5.55,-4.33 -6.58,-5 A 2.67,2.67 0 0 0 89.41,49.14 14.88,14.88 0 0 0 90.2,45.47 L 89.34,45.39 A 14.42,14.42 0 0 1 81,57.12 l -0.21,0.08 -0.06,0.22 a 13.27,13.27 0 0 0 1,8.54 8,8 0 0 1 0.3,0.81 14.23,14.23 0 0 1 -5.1,-0.15 c -0.06,0 -0.3,-0.12 -0.65,-0.72 -1.2,-2.12 -2.26,-8 -1.22,-11.63 2.17,-2.65 2.62,-5.25 3.06,-10.12 a 16.76,16.76 0 0 1 3.34,-8 7.07,7.07 0 0 0 2.94,0.63 V 35.9 c -3,0 -5.41,-2 -5.41,-4.54 0,-2.54 2.43,-4.54 5.41,-4.54 2.83,0 5,1.67 5,3.89 a 3.82,3.82 0 0 1 -2.36,3 3.44,3.44 0 0 1 -3.65,-1 2.09,2.09 0 0 0 1.16,-0.71 1.92,1.92 0 0 0 0,-1.86 l -0.8,0.33 a 1.12,1.12 0 0 1 0,1 C 83.47,31.9 82.67,31.99 82.39,32 h -1 l 0.65,0.72 c 2.21,2.45 4.2,2.18 5.19,1.8 a 5,5 0 0 0 2.5,-2.33 16.93,16.93 0 0 0 6.73,1.45 13.87,13.87 0 0 0 3.47,-0.44 19,19 0 0 0 25.42,8.6 10.27,10.27 0 0 1 1.23,4.12 z"
        id="body"
        inkscape:connector-curvature="0"
         />
     <path
-       class="cls-2"
+       class="pug-hair"
        d="m 125.46,33.27 a 6.71,6.71 0 0 0 -3.41,-1 6.29,6.29 0 0 0 -2.33,0.47 c 1.33,-0.89 2.78,-1.79 3.27,-1.63 a 6.38,6.38 0 0 1 1.7,1.41 z"
        id="face-color-between-eyes-and-nose"
        inkscape:connector-curvature="0"
         />
     <path
-       class="cls-4"
+       class="pug-ears-nose-eyes"
        d="m 122.05,33.15 c 3.49,0 6.27,3.62 6.27,5.05 0,1.23 -2.58,2.61 -6.27,2.61 -3.69,0 -6.27,-1.38 -6.27,-2.61 0,-1.43 2.78,-5.05 6.27,-5.05 z"
        id="mouth-nose-outline"
        inkscape:connector-curvature="0"
         />
     <path
-       class="cls-2"
+       class="pug-hair"
        d="M 129.18,38.27 V 38.2 a 5.74,5.74 0 0 0 -1.84,-3.44 5,5 0 0 0 1.77,0.7 3.85,3.85 0 0 0 3,-0.78 3.11,3.11 0 0 0 0.28,-0.23 18.75,18.75 0 0 1 -3.21,3.82 z"
        id="face-color-right"
        inkscape:connector-curvature="0"
         />
     <path
-       class="cls-2"
+       class="pug-hair"
        d="m 134.89,28.25 c 0.05,-1.57 -0.29,-2.59 -1,-3.15 -1,-0.72 -2.57,-0.57 -4.84,0.46 -2.9,1.32 -4.69,2.16 -5.67,2.63 a 1.81,1.81 0 0 1 -1.37,0.09 L 115.05,26 c -3.19,-1.06 -6,-0.95 -7.65,0.3 -1.2,0.94 -1.73,2.44 -1.57,4.47 a 5.45,5.45 0 0 0 2.7,4.59 7.22,7.22 0 0 0 3.51,0.84 8.07,8.07 0 0 0 3.5,-0.75 c 0.4,-0.2 0.84,-0.46 1.28,-0.74 a 5.85,5.85 0 0 0 -1.91,3.52 c 0,1.95 3.14,3.48 7.14,3.48 a 16,16 0 0 0 1.87,-0.12 18.16,18.16 0 0 1 -25,-16.82 15.53,15.53 0 0 1 0.08,-1.72 3.47,3.47 0 0 0 0.89,-0.14 c 1.94,-0.56 2.59,-2.57 3.21,-4.51 a 7,7 0 0 1 1.7,-3.4 29.2,29.2 0 0 0 4.41,-4.84 L 109.39,9.9 109.2,9.65 a 5,5 0 0 0 -0.53,-0.59 l 0.37,-0.3 c 2.72,-2.21 5.12,-4.16 6,-6.41 1.07,1.3 3.15,2.5 5.68,4 6.12,3.53 14.5,8.38 14.5,18.39 a 17.71,17.71 0 0 1 -0.33,3.51 z"
        id="face-color"
        inkscape:connector-curvature="0"
         />
     <path
-       class="cls-4"
+       class="pug-ears-nose-eyes"
        d="m 137.15,13.46 a 9.24,9.24 0 0 0 -0.61,2.54 9.65,9.65 0 0 0 0.26,1.88 c 0.1,0.51 0.3,1.46 0.16,1.62 0,0 -0.08,0 -0.32,0 a 2.58,2.58 0 0 1 -1.69,-1 20.74,20.74 0 0 0 -7.17,-8.71 3.47,3.47 0 0 1 3.88,-1.6 20.37,20.37 0 0 0 3,0.6 4.59,4.59 0 0 1 2.86,1 c 0.64,0.66 0.11,2.26 -0.37,3.67 z"
        id="ear-right"
        inkscape:connector-curvature="0"
@@ -118,19 +118,19 @@
        id="nose-outline"
        inkscape:connector-curvature="0" />
     <path
-       class="cls-3"
+       class="pug-nose-color"
        d="m 122.1,34.17 c 1.26,0 1.94,0.46 1.94,0.65 a 2,2 0 0 1 -3.89,0 c 0,-0.19 0.68,-0.65 1.95,-0.65 z"
        id="nose-color"
        inkscape:connector-curvature="0"
         />
     <path
-       class="cls-4"
+       class="pug-ears-nose-eyes"
        d="m 105.83,8.65 a 9.24,9.24 0 0 0 -2.82,0.79 21.58,21.58 0 0 1 -4.91,1.37 1.09,1.09 0 0 0 -0.87,0.48 c -0.61,1 0.37,3.52 1,5.16 A 7.62,7.62 0 0 1 98.9,18.6 6.46,6.46 0 0 1 98.68,20 c -0.17,0.73 -0.43,1.84 -0.12,2.14 0.15,0.14 0.55,0.14 1.09,0 1.5,-0.42 2,-2.13 2.63,-3.93 0.46,-1.45 0.94,-2.94 2,-3.77 a 27.27,27.27 0 0 0 4,-4.4 3.69,3.69 0 0 0 -2.45,-1.39 z"
        id="ear-left"
        inkscape:connector-curvature="0"
         />
     <path
-       class="cls-3"
+       class="pug-ears-nose-eyes"
        d="m 133.94,29.36 a 6.87,6.87 0 0 1 -2.32,4.64 3.1,3.1 0 0 1 -2.37,0.62 c -1.45,-0.25 -2.84,-1.61 -4,-2.7 a 6.55,6.55 0 0 0 -2,-1.61 c -1,-0.33 -2.49,0.67 -4.89,2.32 a 33,33 0 0 1 -3.22,2 7.28,7.28 0 0 1 -6.2,-0.08 4.57,4.57 0 0 1 -2.26,-3.9 4.06,4.06 0 0 1 1.25,-3.65 4.94,4.94 0 0 1 3,-0.84 12.13,12.13 0 0 1 3.8,0.68 l 6.91,2.31 a 2.72,2.72 0 0 0 2,-0.13 v 0 c 1,-0.47 2.77,-1.31 5.66,-2.63 1.93,-0.87 3.26,-1.06 4,-0.54 0.74,0.52 0.88,1.62 0.64,3.51 z"
        id="eyes-outline"
        inkscape:connector-curvature="0"
@@ -206,18 +206,18 @@
        inkscape:connector-curvature="0"
        style="fill:#2c6d7c" />
     <path
-       class="cls-8"
+       class="boat-color-dark"
        d="M 37.4,76.78 A 552.43,552.43 0 0 0 95,80.07 c 28,-0.15 53,-2.58 53,-2.58 l 7.63,-2.8 0.19,-0.23 H 37 Z"
        id="boat-bottom"
        inkscape:connector-curvature="0"
     />
     <polygon
-       class="cls-8"
+       class="boat-color-dark"
        points="148.88,60.1 112.36,63.99 40.24,63.99 35.15,65.26 35.97,69.47 160.03,69.47 168.51,59.46 166.23,58.86 "
        id="boat-top"
     />
     <polygon
-       class="cls-9"
+       class="boat-color-light"
        points="155.8,74.46 160.03,69.47 35.97,69.47 36.95,74.46 "
        id="boat-middle"
     />
@@ -258,7 +258,7 @@
        inkscape:connector-curvature="0"
        style="fill:#e5e5e5" />
     <path
-       class="cls-9"
+       class="boat-color-light"
        d="m 32.79,42.81 a 1.73,1.73 0 1 1 -3.46,0 c 0,-1.23 1.57,-1.68 1.73,-2.39 0.2,0.7 1.73,1.18 1.73,2.39 z"
        id="flag-drupal-logo"
        inkscape:connector-curvature="0"

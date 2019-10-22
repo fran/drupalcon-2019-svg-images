@@ -11,13 +11,13 @@ id: node.city_trip.field_sky
 field_name: field_sky
 entity_type: node
 bundle: city_trip
-label: Sky
+label: 'Time of the day'
 description: ''
 required: false
 translatable: false
 default_value:
   -
-    value: '#0000'
+    value: day
 default_value_callback: ''
 settings: {  }
 field_type: list_string
