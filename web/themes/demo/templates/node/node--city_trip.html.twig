@@ -75,6 +75,13 @@
 {{ attach_library('demo/city-trip') }}
 
 {%
+  set classes = [
+    'city-trip',
+    node.field_sky.value == 'night' ? 'night'
+  ]
+%}
+
+{%
   set background_classes = [
     'amsterdam',
     node.field_boat_speed.value ? 'velocity-' ~ node.field_boat_speed.value,
@@ -82,7 +89,7 @@
   ] | sort | join(' ') | trim
 %}
 
-<div{{ attributes.addClass('city-trip').removeClass('contextual-region') }}>
+<div{{ attributes.addClass(classes).removeClass('contextual-region') }}>
   <div class="container">
     <div class="{{ background_classes }}">
       <div class="amsterdam-image">

@@ -1,9 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="603" height="337" viewBox="0 0 603 337">
   <defs>
+    <filter id="darkenAndDesaturate">
+      <feColorMatrix
+        type="matrix" result="darkened"
+        values=".4   0   0   0   0
+             0  .4   0   0   0
+             0   0  .4   0   0
+             0   0   0   1   0 "/>
+      <feColorMatrix
+        type="saturate" result="desaturated"
+        values="0.9" />
+    </filter>
+
     <style>
       .clsa-1{fill:#b6cddd;}.clsa-2{fill:#161c2e;}.clsa-3{fill:#d34942;}.clsa-4{fill:#b52d2a;}.clsa-10,.clsa-13,.clsa-15,.clsa-19,.clsa-21,.clsa-25,.clsa-5{fill:none;stroke-miterlimit:10;}.clsa-1 .clsa-13,.clsa-15,.clsa-19,.clsa-21,.clsa-5{stroke:#fff;}.clsa-5{stroke-width:1.94px;}.clsa-6{fill:#fff;}.clsa-7{fill:#c9ccd3;}.clsa-8{fill:#2e3444;}.clsa-9{fill:#821919;} .clsa-10{stroke-width:0.49px;}.clsa-11{fill:#f47c6c;}.clsa-12{fill:#cc4e48;}.clsa-13{stroke-width:2.85px;}.clsa-14{fill:#932927;}.clsa-15{stroke-width:0.73px;}.clsa-16{fill:#ef9d54;} .clsa-17{fill:#d37c35;}.clsa-18{fill:#9b521c;}.clsa-19{stroke-width:2.73px;}.clsa-20{fill:#efc79e;}.clsa-21{stroke-width:2.74px;}.clsa-22{fill:#ededed;}.clsa-23{fill:#a0dad2;} .clsa-24{fill:#0b2b52;}.clsa-25{stroke:#0d0e11;stroke-width:0.25px;}.clsa-26{fill:#0d0e11;}.clsa-27{fill:#256b62;}.clsa-28{fill:#3caab0;}.clsa-29,.clsa-31{fill:#51230a;} .clsa-30{fill:#753f21;}.clsa-31{opacity:0.5;}.clsa-32{fill:#548999;}.clsa-33{fill:#609aa8;}
 
-      .night .clsa-1{fill:#001726;}
+      .night .clsa-1{
+        fill:#001726;
+      }
       .night .clsa-2,
       .night .clsa-3,
       .night .clsa-4,
@@ -35,11 +49,12 @@
       .night .clsa-30,
       .night .clsa-32,
       .night .clsa-33 {
-        filter:brightness(0.6);
+        filter:url(#darkenAndDesaturate);
       }
     </style>
   </defs>
-  <title>1X_DrupalCon_AMS_Animation_2019</title><g id="Background"><rect class="clsa-1" width="603" height="268" transform="translate(603 268) rotate(180)"/>
+  <title>1X_DrupalCon_AMS_Animation_2019</title>
+  <g id="Background"><rect class="clsa-1" width="603" height="268" transform="translate(603 268) rotate(180)"/>
   <polygon class="clsa-2" points="125.29 95.42 128.03 96.11 129.37 97.08 131.03 95.89 133.82 95.35 130.89 95.62 129.55 96.34 128.13 95.67 125.29 95.42"/>
   <polygon class="clsa-2" points="128.31 63.18 130.99 64.05 132.26 65.11 134 64.04 136.82 63.69 133.88 63.76 132.49 64.39 131.12 63.63 128.31 63.18"/>
   <polygon class="clsa-2" points="318.55 97.94 321.33 97.48 322.94 97.84 324 96.09 326.35 94.48 323.76 95.9 322.82 97.09 321.25 97.05 318.55 97.94"/>
