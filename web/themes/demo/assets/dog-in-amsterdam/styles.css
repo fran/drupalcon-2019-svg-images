@@ -29,34 +29,34 @@
   margin-left: -6px;
 }
 
-.velocity-1 svg {
+.velocity-1.amsterdam  {
   animation: moveLeft 50s linear infinite;
 }
-.velocity-2 svg {
+.velocity-2.amsterdam  {
   animation: moveLeft 45s linear infinite;
 }
-.velocity-3 svg {
+.velocity-3.amsterdam  {
   animation: moveLeft 40s linear infinite;
 }
-.velocity-4 svg {
+.velocity-4.amsterdam  {
   animation: moveLeft 35s linear infinite;
 }
-.velocity-5 svg {
+.velocity-5.amsterdam  {
   animation: moveLeft 30s linear infinite;
 }
-.velocity-6 svg {
+.velocity-6.amsterdam  {
   animation: moveLeft 25s linear infinite;
 }
-.velocity-7 svg {
+.velocity-7.amsterdam  {
   animation: moveLeft 20s linear infinite;
 }
-.velocity-8 svg {
+.velocity-8.amsterdam  {
   animation: moveLeft 15s linear infinite;
 }
-.velocity-9 svg {
+.velocity-9.amsterdam  {
   animation: moveLeft 10s linear infinite;
 }
-.velocity-10 svg {
+.velocity-10.amsterdam  {
   animation: moveLeft 5s linear infinite;
 }
 
