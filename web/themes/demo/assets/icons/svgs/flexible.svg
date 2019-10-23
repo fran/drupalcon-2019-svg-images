@@ -1,52 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   data-name="Ebene 1"
    width="38.12"
    height="38.12"
    version="1.1"
    id="flexible"
-   sodipodi:docname="flexible.svg"
-   inkscape:version="0.92.4 (f8dce91, 2019-08-02)">
-  <metadata
-     id="metadata10">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <defs
-     id="defs8" />
-  <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="2493"
-     inkscape:window-height="1385"
-     id="namedview6"
-     showgrid="false"
-     inkscape:zoom="6.190976"
-     inkscape:cx="-34.324152"
-     inkscape:cy="19.059999"
-     inkscape:window-x="1667"
-     inkscape:window-y="27"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg4" />
+   viewBox="0 0 38 38"
+>
   <style>
     #flexible:hover #bottom {
       animation: bounce-bottom 3s ease-in-out  infinite;
@@ -116,25 +76,26 @@
   <path
     fill={{paragraph.field_icon_color.color}}
     id="top"
-  class="arrow"
-     d="m 19.060547,0 -6.759766,6.7597656 1.058594,1.0605469 4.951172,-4.9511719 V 14.869141 h 1.5 V 2.8691406 l 5,5 1.058594,-1.0585937 z M 7.8125,13.341797 c -0.032241,0.0434 -0.085478,0.105798 -0.099609,0.123047 -0.094218,0.110073 -0.029535,0.03453 -0.0625,0.07226 L 7.8300785,13.35937 Z m -6.5625,6.96875 0.066406,0.06641 c 0.010059,-0.01298 0.021203,-0.03031 0.03125,-0.04297 C 1.314539,20.325787 1.281997,20.318347 1.25,20.310547 Z m 34.039062,1.478515 c -0.0028,0.06969 -0.0055,0.139315 -0.0078,0.208985 l 0.01953,-0.01953 c -0.0024,-0.06184 -0.0042,-0.123692 -0.0059,-0.185547 -0.0019,-7.81e-4 -0.0039,-0.0031 -0.0059,-0.0039 z"
-     inkscape:connector-curvature="0" />
-  <path
-      fill={{paragraph.field_icon_color.color}}
-      id="bottom"
-      class="arrow"
-      d="M 0.03125,19.027344 0,19.058594 l 0.03125,0.03125 c -4.4968e-4,-0.02095 8.1425e-4,-0.04141 0,-0.0625 z m 18.279297,4.271484 v 12 l -4.949219,-5 -1.060547,1.060547 6.759766,6.759766 6.759765,-6.759766 -1.060546,-1.060547 -4.949219,5 v -12 z"
-      inkscape:connector-curvature="0" />
+    class="arrow"
+    d="m 19.060547,0 -6.759766,6.7597656 1.058594,1.0605469 4.951172,-4.9511719 V 14.869141 h 1.5 V 2.8691406 l 5,5 1.058594,-1.0585937 z M 7.8125,13.341797 c -0.032241,0.0434 -0.085478,0.105798 -0.099609,0.123047 -0.094218,0.110073 -0.029535,0.03453 -0.0625,0.07226 L 7.8300785,13.35937 Z m -6.5625,6.96875 0.066406,0.06641 c 0.010059,-0.01298 0.021203,-0.03031 0.03125,-0.04297 C 1.314539,20.325787 1.281997,20.318347 1.25,20.310547 Z m 34.039062,1.478515 c -0.0028,0.06969 -0.0055,0.139315 -0.0078,0.208985 l 0.01953,-0.01953 c -0.0024,-0.06184 -0.0042,-0.123692 -0.0059,-0.185547 -0.0019,-7.81e-4 -0.0039,-0.0031 -0.0059,-0.0039 z"
+
+  />
   <path
     fill={{paragraph.field_icon_color.color}}
-  id="right"
-  class="arrow"
-     d="m 19.828125,1.9921875 c -0.01311,0.012333 -0.02786,0.022871 -0.04102,0.035156 0.01098,0.00134 0.0225,0.00234 0.0332,0.00391 0.0024,-0.012627 0.0054,-0.026397 0.0078,-0.039063 z m -0.01758,4.4238281 c -0.0044,0.00767 -0.0051,0.00743 -0.0098,0.015625 0.0047,0.02018 0.0053,0.014678 0.0098,0.033203 z M 31.361328,12.300781 30.300781,13.359375 35.25,18.310547 H 23.300781 v 1.5 h 12 l -4.951172,5 1.060547,1.058594 6.759766,-6.759766 z"
-     inkscape:connector-curvature="0" />
+    id="bottom"
+    class="arrow"
+    d="M 0.03125,19.027344 0,19.058594 l 0.03125,0.03125 c -4.4968e-4,-0.02095 8.1425e-4,-0.04141 0,-0.0625 z m 18.279297,4.271484 v 12 l -4.949219,-5 -1.060547,1.060547 6.759766,6.759766 6.759765,-6.759766 -1.060546,-1.060547 -4.949219,5 v -12 z"
+  />
   <path
     fill={{paragraph.field_icon_color.color}}
-  id="left"
-  class="arrow"
-     d="M 6.7597656,12.298828 0,19.058594 l 6.7597656,6.759765 1.0605469,-1.058593 -4.9492187,-5 11.9589842,0.04883 v -1.5 H 2.8300781 l 5,-4.949219 z"
-     inkscape:connector-curvature="0" />
+    id="right"
+    class="arrow"
+    d="m 19.828125,1.9921875 c -0.01311,0.012333 -0.02786,0.022871 -0.04102,0.035156 0.01098,0.00134 0.0225,0.00234 0.0332,0.00391 0.0024,-0.012627 0.0054,-0.026397 0.0078,-0.039063 z m -0.01758,4.4238281 c -0.0044,0.00767 -0.0051,0.00743 -0.0098,0.015625 0.0047,0.02018 0.0053,0.014678 0.0098,0.033203 z M 31.361328,12.300781 30.300781,13.359375 35.25,18.310547 H 23.300781 v 1.5 h 12 l -4.951172,5 1.060547,1.058594 6.759766,-6.759766 z"
+  />
+  <path
+    fill={{paragraph.field_icon_color.color}}
+    id="left"
+    class="arrow"
+    d="M 6.7597656,12.298828 0,19.058594 l 6.7597656,6.759765 1.0605469,-1.058593 -4.9492187,-5 11.9589842,0.04883 v -1.5 H 2.8300781 l 5,-4.949219 z"
+  />
 </svg>

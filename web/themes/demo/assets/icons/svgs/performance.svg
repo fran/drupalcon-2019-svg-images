@@ -1,4 +1,4 @@
-<svg data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" width="37.5" height="35.6" id="performance">
+<svg data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" width="37.5" height="35.6" viewBox="0 0 38 36" id="performance">
   <style>
     #pointer {
       transform: rotate(-30deg);

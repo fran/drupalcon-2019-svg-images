@@ -18,20 +18,11 @@ settings:
       value: sepia
       label: Sepia
     -
-      value: dark
-      label: Dark
-    -
       value: blur
       label: Blur
     -
-      value: dialate
-      label: Dialate
-    -
       value: erodate
       label: Erodate
-    -
-      value: sunshine
-      label: Sunshine
     -
       value: transparentize
       label: Transparentize
